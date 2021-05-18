@@ -97,6 +97,4 @@ RSpec.configure do |config|
   Kernel.srand config.seed
 =end
 
-config.include Factory.Bot::Syntax::Methods
-
 end
